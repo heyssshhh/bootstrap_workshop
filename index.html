@@ -42,28 +42,26 @@
     </div>
 
     <div class="container_fluid">
-      <h2>Top 6 Common CS Mistakes to Avoid</h2>
+      <h2 class="bg-primary">Top 6 Common CS Mistakes to Avoid</h2>
       <div class="row">
-        <div class= "col-md-6">
+        <div class= "col-md-3">
           <h3>#1: Segmentation Faults (Core Dumped)</h3>
         </div>
-        <div class= "col-md-6">
-          <p>
+        <div class= "col-md-3">
+          <p class="blockquote-reverse">
             As anyone who has programmed in C knows, working with a language
-            that is not memory safe can be a blessing and a curse.  One
+            that is not memory safe can be a blessing and a <mark>curse</mark>.  One
             negative of low-level access is the segfault, which is caused
             by a program trying to read or write an illegal memory location.
             Some students have dubbed recieving this common programming error
             'Taking a segfault to the face'.
           </p>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-3">
           <h3>#2: Procrastination</h3>
         </div>
-        <div class="col-md-6">
-          <p>
+        <div class="col-md-3">
+          <p class="blockquote-reverse">
             The only possible thing that makes a CS lab harder is when its
             due at midnight and it’s 10pm.  Being a CS major and procrastinating
             is probably a bad combination, like beans and red wine.  Most
@@ -73,11 +71,11 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6" >
+        <div class="col-md-3" >
           <h3>#3: Not Using Git</h3>
         </div>
-        <div class="col-md-6">
-          <p>
+        <div class="col-md-3">
+          <p class="blockquote-reverse">
             As a student, especially if no one else is working on your code,
             using Git can seem tedious and unneccessary.  Why learn this complicated
             new system and follow a new workflow?  Well, as anyone who has tried
@@ -86,13 +84,11 @@
             save invaluable time and is a necessary skill for group work.
           </p>
         </div>
-      </div>
-      <div class= "row">
         <div class="col-md-3">
           <h3>#4: Getting Cooked</h3>
         </div>
         <div class="col-md-3">
-          <p>
+          <p class="blockquote-reverse">
             Ever tried taking two systems level programming courses in the same
             term?  Or how about saving an entire CS50 lab until the last minute?
             The term to descrive these situations, in which there is an unrealistic
@@ -108,7 +104,7 @@
           <h3>#5: Forgetting How to Code</h3>
         </div>
         <div class="col-md-3">
-          <p>
+          <p class="blockquote-reverse">
             What's that you say?  How could a programmer possibly forget how to
             code?  Well you're right, they probably couldn't.  The problem is
             that we had to make up some content for this tutorial and we
@@ -118,13 +114,38 @@
       </div>
     </div>
 
-    <footer>
-      <ul>
-        <li><a href="#">ORC</a></li>
-        <li><a href="#">Schedule</a></li>
-        <li><a href="#">Major</a></li>
-        <li><a href="#">Professors</a></li>
+      <!--template from w3schools.com-->
+    <div class="container_fluid">
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click me!!</button>
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">HELLO</h4>
+          </div>
+          <div class="modal-body">
+            <p>Be a sick CS major and take 52 :).</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <footer class="navbar navbar-default">
+      <div class="container_fluid">
+      <ul class="nav navbar-nav">
+        <li><a href="#" class="col-md-6">ORC</a></li>
       </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" class="col-md-2">Schedule</a></li>
+        <li><a href="#" class="col-md-2">Major</a></li>
+        <li><a href="#" class="col-md-2">Professors</a></li>
+      </ul>
+    </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
